@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/client/**/*.tsx", "src/client/**/*.ts"]
+}
